@@ -1,8 +1,7 @@
-+ Lien vers la page web : https://helene-mb.github.io/Openclassrooms-Starting-website/
++ Lien vers la page web optimisée : https://helene-mb.github.io/OC-P4-LaChouetteAgence-optimized/
 
 - Réalisé par : Openclassrooms
 - Contenu : site web du Projet 4 de la formation Développeur Web Junior d'Openclassrooms "Optimisez un site existant"
-- Lien vers le site optimisé :
 
 + Compétences évaluées :
 
