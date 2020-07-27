@@ -58,6 +58,7 @@ h5 {
 
 .coordonnees__contact {
     padding-right: 50px;
+    padding-bottom: 30px;
 }
 
 .coordonnees__contact-2 {
@@ -881,14 +882,6 @@ h1 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
-.formulaire {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -950,6 +943,13 @@ h1 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+    .formulaire {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
