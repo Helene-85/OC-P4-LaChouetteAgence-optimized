@@ -9,6 +9,7 @@ body {
 
 li {
     list-style-type: none;
+    font-weight: bold;
 }
 
 .coordonnees, .partenaires {
@@ -45,6 +46,7 @@ h4 {
 
 h5 {
     color: #FFF;
+    font-weight: bold;
 }
 
 .formulaire {
