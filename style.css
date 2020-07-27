@@ -47,6 +47,22 @@ h5 {
     color: #FFF;
 }
 
+.formulaire {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.coordonnees__contact {
+    padding-right: 50px;
+}
+
+.coordonnees__contact-2 {
+    color: black;
+    font-size: 20px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -690,6 +706,10 @@ a {
     color: black!important;
 }
 
+label {
+    font-size: 20px;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -770,7 +790,7 @@ h1 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -809,7 +829,11 @@ h1 {
 }
 
 .tc-white {
-    color: #FFF!important;
+    color: black!important;
+}
+
+.tc-white-1 {
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -841,10 +865,6 @@ h1 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
@@ -938,6 +958,7 @@ h1 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
+        font-size: 16px;
     }
     .b-parallax {
         background-attachment: scroll;
