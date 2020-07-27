@@ -3,6 +3,8 @@
 - Réalisé par : Openclassrooms
 - Contenu : site web du Projet 4 de la formation Développeur Web Junior d'Openclassrooms "Optimisez un site existant"
 
++ Progression : en cours
+
 + Compétences évaluées :
 
 - Écrire un code HTML et CSS maintenable
