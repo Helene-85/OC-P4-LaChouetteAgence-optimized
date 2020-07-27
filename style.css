@@ -881,6 +881,14 @@ h1 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
