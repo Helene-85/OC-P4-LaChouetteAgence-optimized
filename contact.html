@@ -95,29 +95,29 @@
 							</ul>
 						</div>
 						<div class="col-sm-6">
-							<form id="form_1" novalidate success-msg="Votre message a bien été envoyé." fail-msg="Désolé, il semble que notre serveur de messagerie ne répond pas, désolé pour le désagrément!">
+							<form id="form_1" novalidate>
 								<div class="form-group">
-									<label>
+									<label for="name">
 										Nom
 									</label>
-									<input id="name" class="form-control" placeholder="Ex : Michel Dupont" required />
+									<input id="name" class="form-control" type="text" placeholder="Ex : Michel Dupont" required />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="mail">
 										Adresse email
 									</label>
 									<input id="email" class="form-control" type="email" placeholder="Ex : michel@gmail.com" required />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="message">
 										Comment nous avez-vous connu ?
 									</label>
-									<input class="form-control" type="email" placeholder="Ex : Publicité" required id="input_504" />
+									<input class="form-control" type="message" placeholder="Ex : Publicité" required id="input_504" />
 								</div>
 								<div class="form-group">
 									<label>
 										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Ex : Bonjour, voici en quoi consiste mon projet..." required></textarea>
+									</label><textarea id="message" class="form-control" type="message" rows="4" cols="50" placeholder="Ex : Bonjour, voici en quoi consiste mon projet..." required></textarea>
 								</div> 
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 									Envoyer
@@ -171,9 +171,9 @@
 							<div class="col-sm-6">
 								<h4 class="footer__titre-2">Partenaires</h4>
 								<ul class="partenaires">
-									<h5> WebDev Lyon</h5>
+									<li> WebDev Lyon</li>
 									<li><a href="webdev-lyon.com" target="_blank" title="Site internet de WebDev Lyon">webdev-lyon.com</a></li>
-									<h5> Graphiste Lyon</h5>
+									<li> Graphiste Lyon</li>
 									<li><a href="graphiste-lyon.com" target="_blank" title="Site internet de Graphiste Lyon">graphiste-lyon.com</a></li>
 								</ul>		
 							</div>
