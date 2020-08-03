@@ -12,10 +12,11 @@ li {
     font-weight: bold;
 }
 
-.coordonnees, .partenaires {
+.coordonnees, .carte {
     padding-top: 10px;
     padding-bottom: 20px;
-    padding-left: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
     color: black;
     font-weight: bolder;
     text-align: center;
@@ -64,7 +65,13 @@ h5 {
 
 .coordonnees__contact-2 {
     color: black;
-    font-size: 20px;
+    font-size: 16px;
+}
+
+.row_footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 a,
@@ -521,6 +528,12 @@ button {
     outline: none!important;
 }
 
+.row_footer {
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+}
+
 .btn-rd {
     border-radius: 40px;
 }
@@ -711,7 +724,7 @@ a {
 }
 
 label {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .container {
