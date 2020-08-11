@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+#name.form-control:focus, #mail.form-control:focus, #msg.form-control:focus, #object.form-control:focus {
+    border: solid 3px red;
+}
+
 li {
     list-style-type: none;
     font-weight: bold;
@@ -83,6 +87,14 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+a:focus {
+    border: solid 3px red;
+}
+
+button:focus {
+    border: solid 3px red;
 }
 
 #page-loading-blocs-notifaction {
