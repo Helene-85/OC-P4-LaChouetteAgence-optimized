@@ -3,7 +3,7 @@
 - Réalisé par : Openclassrooms
 - Contenu : site web du Projet 4 de la formation Développeur Web Junior d'Openclassrooms "Optimisez un site existant"
 
-+ Progression : en cours
++ Progression : validé le 12/08/2020
 
 + Compétences évaluées :
 
